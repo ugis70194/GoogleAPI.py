@@ -10,6 +10,7 @@ Google Drive APIは `./auth_keys/drive/`
 Google Docs APIは `./auth_keys/docs/`  
 以下を読みにいくのでそこにファイルを置くか、クラスインスタンス作成時にファイルの場所を指定してください。  
 一連の手順については、詳しくやり方を書いて頂いている方がいるので[こちら](https://zenn.dev/wtkn25/articles/python-googledriveapi-auth#google-developer-console%E3%81%AB%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9)を参照してください。  
+現在はアプリケーションの種類に`その他`がなくなっています。代わりに`デスクトップアプリケーション`を選択してください
 
 必要なライブラリは
 `pip3 install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib oauth2client`
