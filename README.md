@@ -13,7 +13,9 @@ Google Docs APIは `./auth_keys/docs/`
 現在はアプリケーションの種類に`その他`がなくなっています。代わりに`デスクトップアプリケーション`を選択してください
 
 必要なライブラリは
-`pip3 install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib oauth2client`
+```
+pip3 install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib oauth2client
+```
 でインストールできます。
 
 ## Example
